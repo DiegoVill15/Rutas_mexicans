@@ -2,9 +2,9 @@
 
 Rutas Mexicanas is an Android application designed to help users find and book travel routes in Mexico. The app provides an intuitive interface for selecting routes, viewing available seats, and rating drivers and passengers.
 
-<img src="https://github.com/DiegoVill15/Rutas_mexicans/assets/150846941/a0b10c3c-ecf7-440a-9dd7-1c0bb810a7bc" alt="image" width="300"/>
-<img src="https://github.com/DiegoVill15/Rutas_mexicans/assets/150846941/3d97234e-e724-4aa3-bbd0-a3d5e2391dc9" alt="image" width="300"/>
-<img src="https://github.com/DiegoVill15/Rutas_mexicans/assets/150846941/6b2095c3-bf36-4a22-909a-be0e6d82306d" alt="image" width="300"/>
+<img src="https://github.com/DiegoVill15/Rutas_mexicans/assets/150846941/a0b10c3c-ecf7-440a-9dd7-1c0bb810a7bc" alt="image" width="200"/>
+<img src="https://github.com/DiegoVill15/Rutas_mexicans/assets/150846941/3d97234e-e724-4aa3-bbd0-a3d5e2391dc9" alt="image" width="200"/>
+<img src="https://github.com/DiegoVill15/Rutas_mexicans/assets/150846941/6b2095c3-bf36-4a22-909a-be0e6d82306d" alt="image" width="200"/>
 
 
 
