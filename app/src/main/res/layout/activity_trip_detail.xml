@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/background_light">
+
+        <!-- Detalles del Viaje -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalles del Viaje"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@android:color/black"
+            android:background="?attr/colorPrimary"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/originTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/destinationTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/seatsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"/>
+
+        <TextView
+            android:id="@+id/direccionSalidaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"/>
+
+        <!-- Grid de Asientos -->
+        <GridLayout
+            android:id="@+id/seatGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:padding="16dp">
+
+            <!-- Placeholder para los asientos, se deberán crear dinámicamente -->
+        </GridLayout>
+
+        <!-- Métodos de Pago -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Método de Pago"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/paymentMethodRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioCash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Efectivo" />
+
+            <RadioButton
+                android:id="@+id/radioPaypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PayPal"
+                android:textColor="#9E9E9E"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/radioCredit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tarjeta de Crédito"
+                android:textColor="#9E9E9E"
+                android:enabled="false"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar: $0.0"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:paddingTop="10dp"/>
+
+        <!-- Botón para reservar el viaje -->
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:text="Reservar Viaje"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:background="#FF5722"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"
+            android:elevation="4dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

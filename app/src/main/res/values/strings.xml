@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">RutasMexicanas</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_profile">Cuenta</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_logout">Salir</string>
+    <string name="nav_reservaciones">Mis viajes</string>
+    <string-array name="user_types">
+        <item>Seleccione tipo de usuario</item>
+        <item>Pasajero</item>
+        <item>Conductor</item>
+    </string-array>
+
+    <string-array name="trip_status_options">
+        <item>Selecciona el estado del viaje</item>
+        <item>Pendiente</item>
+        <item>En Curso</item>
+        <item>Completado</item>
+    </string-array>
+
+    <string-array name="locations_array">
+        <item>Selecciona una ubicación</item> <!-- Opción no seleccionable -->
+        <item>Polanco, Ciudad de México</item>
+        <item>Tepoztlán, Morelos</item>
+        <item>Valle de Bravo, Estado de México</item>
+        <item>Teotihuacán, Estado de México</item>
+        <item>Cholula, Puebla</item>
+        <item>Pachuca, Hidalgo</item>
+        <item>Cuernavaca, Morelos</item>
+        <item>Taxco, Guerrero</item>
+        <item>Toluca, Estado de México</item>
+        <item>Querétaro, Querétaro</item>
+        <item>Puebla, Puebla</item>
+    </string-array>
+
+
+    <string name="prompt_select_origin">Selecciona un origen</string>
+    <string name="prompt_select_destination">Selecciona un destino</string>
+
+
+    <string name="register_trip_title">Registrar viaje</string>
+    <string name="origin_hint">Origen</string>
+    <string name="destination_hint">Destino</string>
+    <string name="date_hint">Fecha y hora</string>
+    <string name="seats_hint">Asientos disponibles</string>
+    <string name="price_hint">Precio</string>
+    <string name="direction_hint">Dirección de Salida</string>
+    <string name="register_trip">Registrar Viaje</string>
+    <string name="clear_filter">Limpiar busqueda</string>
+
+    <string name="terms_and_conditions_text">
+<![CDATA[
+<b>Términos y Condiciones de Rutas Mexicanas</b><br/><br/>
+<b>Bienvenido a Rutas Mexicanas</b>, la aplicación diseñada para facilitar el carpooling y mejorar la movilidad urbana en México. Al descargar o utilizar nuestra aplicación, usted acepta estos términos y condiciones (en adelante, los "Términos"). Le solicitamos leerlos cuidadosamente.<br/><br/>
+<b>1. Uso de la Aplicación</b><br/>
+<ul>
+    <li><b>Licencia:</b> Rutas Mexicanas le otorga una licencia limitada, no exclusiva e intransferible para utilizar nuestra aplicación en su dispositivo móvil de acuerdo con los Términos establecidos aquí.</li>
+    <li><b>Restricciones de Uso:</b> No está permitido utilizar la aplicación para cualquier propósito ilegal, para solicitar la realización de actividades ilegales, o para cualquier actividad que infrinja los derechos de Rutas Mexicanas o de terceros.</li>
+</ul>
+<b>2. Registro y Cuenta de Usuario</b><br/>
+<ul>
+    <li>Para acceder a las funcionalidades completas de Rutas Mexicanas, debe registrarse y crear una cuenta de usuario. Se le solicitará proporcionar información personal veraz y precisa, y mantenerla actualizada.</li>
+    <li>El usuario es responsable de mantener la confidencialidad de su cuenta y contraseña y de restringir el acceso a su dispositivo.</li>
+</ul>
+<b>3. Privacidad y Protección de Datos</b><br/>
+<ul>
+    <li>La privacidad de nuestros usuarios es de suma importancia. Por favor, consulte nuestra Política de Privacidad, que explica cómo recopilamos, usamos y protegemos la información personal que usted nos proporciona.</li>
+</ul>
+<b>4. Condiciones del Servicio</b><br/>
+<ul>
+    <li>Rutas Mexicanas conecta conductores con pasajeros para compartir viajes. No proporcionamos el transporte directamente ni funcionamos como una empresa de transporte.</li>
+    <li>Los usuarios deben cumplir con todas las leyes y regulaciones locales relativas a la conducción y el carpooling.</li>
+</ul>
+<b>5. Modificaciones y Interrupciones del Servicio</b><br/>
+<ul>
+    <li>Rutas Mexicanas se reserva el derecho de modificar o discontinuar, temporal o permanentemente, la aplicación o cualquier servicio asociado sin previo aviso y sin responsabilidad alguna hacia usted.</li>
+</ul>
+<b>6. Derechos de Propiedad Intelectual</b><br/>
+<ul>
+    <li>Todo el contenido incluido en la aplicación, como textos, gráficos, logos, imágenes, así como la compilación de estos, es propiedad de Rutas Mexicanas o se utiliza con permiso y está protegido por leyes de derechos de autor y marcas registradas.</li>
+</ul>
+<b>7. Exclusión de Garantías y Limitación de Responsabilidad</b><br/>
+<ul>
+    <li>Rutas Mexicanas no garantiza que la aplicación esté libre de errores o que el acceso a esta sea continuo o ininterrumpido.</li>
+    <li>No seremos responsables por daños indirectos, incidentales, especiales o consecuentes.</li>
+</ul>
+<b>8. Cambios a los Términos y Condiciones</b><br/>
+<ul>
+    <li>Nos reservamos el derecho de modificar estos Términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en nuestra aplicación o sitio web.</li>
+</ul>
+<b>9. Legislación Aplicable y Jurisdicción</b><br/>
+<ul>
+    <li>Estos Términos estarán regidos e interpretados de acuerdo con las leyes de México, y cualquier disputa deberá ser resuelta en los tribunales de este país.</li>
+</ul>
+<b>10. Contacto</b><br/>
+<ul>
+    <li>Si tiene preguntas sobre estos Términos, por favor contáctenos a través de contacto@rutasmexicanas.com.</li>
+</ul>
+]]>
+</string>
+
+    <string name="privacity_text">
+<![CDATA[
+<b>Aviso de Privacidad de Rutas Mexicanas</b><br/><br/>
+En Rutas Mexicanas, respetamos su privacidad y nos comprometemos a proteger la información personal que nos proporciona al usar nuestra aplicación y servicios. Este Aviso de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información personal, conforme a las leyes aplicables en México.<br/><br/>
+<b>1. Información que Recopilamos</b><br/>
+<ul>
+    <li><b>Información proporcionada por usted:</b> Esto incluye información personal que nos proporciona al registrarse y crear una cuenta, como su nombre, dirección de correo electrónico, número de teléfono, dirección y datos de pago.</li>
+    <li><b>Información sobre el uso del servicio:</b> Recopilamos información sobre cómo utiliza nuestra aplicación, incluidos los datos de ubicación en tiempo real cuando utiliza el servicio de carpooling.</li>
+    <li><b>Información técnica:</b> Recopilamos información técnica de su dispositivo, como el tipo de dispositivo, sistema operativo, configuración, identificadores únicos y datos de red.</li>
+</ul>
+<b>2. Uso de la Información</b><br/>
+<ul>
+    <li>Proporcionar, mantener y mejorar nuestros servicios.</li>
+    <li>Procesar transacciones y enviarle información relacionada, incluidas confirmaciones, facturas y recordatorios.</li>
+    <li>Comunicarnos con usted sobre productos, servicios, ofertas, promociones y eventos.</li>
+    <li>Detectar, investigar y prevenir actividades fraudulentas o ilegales.</li>
+</ul>
+<b>3. Compartición y Divulgación de Información</b><br/>
+<ul>
+    <li><b>Proveedores de servicios:</b> Compartimos información con proveedores que nos ayudan a operar y mejorar nuestra aplicación.</li>
+    <li><b>Requisitos legales:</b> Podemos divulgar su información si es requerido por ley o si creemos de buena fe que es razonablemente necesario para responder a procesos legales o para proteger la seguridad o derechos de nuestra empresa o usuarios.</li>
+</ul>
+<b>4. Seguridad de la Información</b><br/>
+<ul>
+    <li>Implementamos medidas de seguridad técnicas y organizativas para proteger la información personal contra el acceso, alteración, pérdida o destrucción no autorizados.</li>
+</ul>
+<b>5. Acceso y Control de su Información</b><br/>
+<ul>
+    <li>Usted tiene derecho a acceder, corregir o eliminar su información personal. Puede hacerlo iniciando sesión en su cuenta o contactándonos directamente.</li>
+    <li>También puede oponerse al procesamiento de su información personal, solicitar la limitación del procesamiento o solicitar la portabilidad de su información.</li>
+</ul>
+<b>6. Cambios a este Aviso de Privacidad</b><br/>
+<ul>
+    <li>Podemos modificar este Aviso de Privacidad ocasionalmente. Cualquier cambio será comunicado a través de nuestra aplicación o por correo electrónico.</li>
+</ul>
+<b>7. Contacto</b><br/>
+<ul>
+    <li>Si tiene preguntas sobre este Aviso de Privacidad o sobre el manejo de su información, por favor contáctenos a través de contacto@rutasmexicanas.com.</li>
+    <li>Este Aviso de Privacidad se aplica a todos los servicios ofrecidos por Rutas Mexicanas dentro de México.</li>
+</ul>
+]]>
+</string>
+
+
+
+</resources>

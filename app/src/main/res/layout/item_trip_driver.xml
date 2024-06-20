@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Origen"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textViewDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destino"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textViewDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha y Hora"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textViewAvailableSeats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plazas Disponibles"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textViewPassengerDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalles del Pasajero"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonRatePassengers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calificar Pasajeros"
+                android:layout_marginEnd="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

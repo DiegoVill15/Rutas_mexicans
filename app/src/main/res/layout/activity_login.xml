@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_logo"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campos de texto -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="emailAddress"
+                android:inputType="textEmailAddress"
+                android:hint="Correo electrónico"
+                android:textColorHint="#757575"
+                android:textColor="#000000" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="password"
+                android:inputType="textPassword"
+                android:hint="Contraseña"
+                android:textColorHint="#757575"
+                android:textColor="#000000" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Botón de continuar -->
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+        <!-- Texto para mover a la actividad de registro -->
+        <TextView
+            android:id="@+id/move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00C4FF"
+            android:text="¿No tienes una cuenta? Crear una"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

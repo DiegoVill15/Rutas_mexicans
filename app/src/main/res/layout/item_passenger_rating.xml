@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewPassengerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Passenger Name"
+        android:textSize="16sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBarPassenger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:stepSize="1"
+        android:numStars="5" />
+
+</LinearLayout>

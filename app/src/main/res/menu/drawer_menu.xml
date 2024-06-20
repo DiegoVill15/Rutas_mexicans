@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_home"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/icon_user"
+        android:title="Cuenta" />
+    <item
+        android:id="@+id/nav_reservaciones"
+        android:icon="@drawable/icon_auto"
+        android:title="@string/nav_reservaciones" />
+    <item
+        android:id="@+id/nav_terms"
+        android:icon="@drawable/icon_document"
+        android:title="Términos y Condiciones" />
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/icon_priv"
+        android:title="Aviso de Privacidad" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/icon_exit"
+        android:title="@string/nav_logout" />
+</menu>

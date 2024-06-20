@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408325684580",
+    "project_id": "rutas-mexicanas-v1",
+    "storage_bucket": "rutas-mexicanas-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408325684580:android:e1916647f4e9c59845ce71",
+        "android_client_info": {
+          "package_name": "com.diegovillalobos.rutasmexicanas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD8-94256kut3FLXxskafF9S_rOYJ3ZMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
